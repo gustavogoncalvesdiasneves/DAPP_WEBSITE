@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Caminho para o diretório ou arquivo que você deseja adicionar ao IPFS
-FILE_PATH="."
+FILE_PATH="./public/index.html"
 
 # Adiciona o arquivo ou diretório ao IPFS e captura o novo hash
 NEW_HASH=$(ipfs add -r $FILE_PATH | tail -n 1 | awk '{print $2}')

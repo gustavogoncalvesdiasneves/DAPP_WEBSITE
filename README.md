@@ -5,6 +5,10 @@ DAAP &lt;-- Dencentralized APP via IPFS gateway
 
 [See the detailed instructions](./docs/install_&_config.md)
 
+# For configure IPFS start on system
+
+[See the detailed instructions](./docs/script_for_load_ipfs_with_system.md)
+
 # For update any changes run:
 
 ```sh
